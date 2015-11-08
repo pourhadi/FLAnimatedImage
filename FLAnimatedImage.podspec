@@ -22,4 +22,5 @@ Pod::Spec.new do |spec|
   spec.source_files     = "FLAnimatedImageDemo/FLAnimatedImage", "FLAnimatedImageDemo/FLAnimatedImage/**/*.{h,m}"
   spec.frameworks       = "QuartzCore", "ImageIO", "MobileCoreServices", "CoreGraphics"
   spec.requires_arc     = true
+  s.tvos.deployment_target = '9.0'
 end
