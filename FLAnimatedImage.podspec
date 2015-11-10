@@ -1,4 +1,4 @@
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
   s.name             = "FLAnimatedImage"
   s.version          = "1.0.8"
   s.summary          = "Performant animated GIF engine for iOS"
